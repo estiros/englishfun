@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/popup"
+    android:background="#e7e6e5"
+    android:padding="0dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sepatu"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bunga Sepatu"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Hibiscus)"
+        android:layout_marginBottom="8dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:text="Kembang sepatu banyak ditanam sebagai tanaman hias di daerah tropis dan subtropis. Bunga besar, berwarna merah dan tidak berbau. Warna bunga ini ada yang putih hingga kuning, oranye hingga merah tua atau merah jambu. Mahkota bunga terdiri dari 5 lembar atau lebih jika merupakan hibrida. Tangkai putik berbentuk silinder panjang dikelilingi tangkai sari berbentuk oval yang bertaburan serbuk sari. Nama ilmiah dari bunga ini adalah Hibiscus Rosa-Sinensis." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:text="Hibiscus is widely grown as an ornamental plant in the tropics and subtropics. Large flower, red and odorless. This flower color is white to yellow, orange to red or pink. Crown flower consists of 5 pieces or more if it is a hybrid. The long cylindrical pistil stalk is surrounded by an oval-shaped stalk of pollen. The scientific name of this flower is Hibiscus Rosa-Sinensis." />
+
+</LinearLayout>

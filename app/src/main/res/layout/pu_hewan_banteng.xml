@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/popup"
+    android:background="#e7e6e5"
+    android:padding="0dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/banteng"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banteng"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Bull)"
+        android:layout_marginBottom="8dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:text="Banteng adalah salah satu hewan bertanduk dan biasanya tinggal di hutan. Hewan ini masih termasuk dalam kerabat dekat dari hewan ternak seperti sapi, karena bentuknya sangat mirip. Jenis makhluk ini sangat sulit dibedakan dari seekor sapi dibandingkan dengan perilaku dan cara hidup. Bull adalah binatang yang bisa ditemukan di hampir semua pulau di Asia Tenggara. nama ilmiah banteng adalah Bos Javanicus." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:text="The bull is one of the horned animals and usually lives in the forest. Beings are still included in the close relatives of cattle like cow, because the shape is very similar. This type of creature is very difficult to distinguish from a cow compared to behavior and way of life. Bull is a beast that can be found in almost all islands in Southeast Asia. the scientific name of the bull is Bos javanicus." />
+
+</LinearLayout>

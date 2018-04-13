@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/popup"
+    android:background="#e7e6e5"
+    android:padding="0dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/burunghantu"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burung Hantu"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Owl)"
+        android:layout_marginBottom="8dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:text="Burung hantu adalah burung pemangsa atau raptor. Seekor burung raptor adalah burung yang memiliki paruh tajam dan cakar tajam atau cakar yang digunakan untuk menangkap dan memakan makanannya. Burung hantu berburu di malam hari saat para raptor lainnya sedang tidur. Karena itu, burung hantu dan raptor lainnya bisa berbagi wilayah dan cenderung tidak saling bersaing. Nama ilmiah burung hantu adalah Strigiformes." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:text="Owls are birds of prey or raptors. A raptor is a bird that has a sharp beak and sharp claws or talons that it uses to catch and eat its food. Owls hunting at night when the other raptors are sleeping. Because of this, owls and other raptors can share a territory and tend to not compete with each other. The scientific name of the owl is Strigiformes." />
+
+</LinearLayout>

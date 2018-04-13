@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/popup"
+    android:background="#e7e6e5"
+    android:padding="0dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/zebra"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zebra"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Zebra)"
+        android:layout_marginBottom="8dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:text="Zebra adalah binatang dari famili kuda yang tubuhnya berbelang-belang hitam dan putih. Habitat hewan ini tersebar di Afrika Selatan, Afrika Barat, dan Afrika Timur. Ada tiga jenis zebra yaitu zebra gunung (Equus zebra), zebra dataran (Equus quagga) dan zebra primitif (Equus grevyi). Belang-belang pada tubuh zebra dapat membantu sistem pertahanan zebra terhadap predator. Nama ilmiah dari zebra adalah Equus Zebra." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:text="Zebras are animals of the horse family whose bodies are spotted in black and white. Habitat of this animal spread in South Africa, West Africa, and East Africa. There are three types of zebra namely zebra mountain (Equus zebra), zebra plains (Equus quagga) and primitive zebra (Equus grevyi). Beams on zebra body can help zebra defense system against predators. The scientific name of the zebra is the Equus Zebra." />
+
+</LinearLayout>
